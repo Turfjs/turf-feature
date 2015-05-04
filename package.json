@@ -1,0 +1,30 @@
+{
+  "name": "turf-feature",
+  "version": "1.0.0",
+  "description": "[Turf](http://turfjs.org/) feature module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "doc": "dox -r < index.js | doxme --readme > README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Turfjs/turf-feature.git"
+  },
+  "keywords": [
+    "turf",
+    "feature",
+    "geojson"
+  ],
+  "author": "morganherlocker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Turfjs/turf-feature/issues"
+  },
+  "homepage": "https://github.com/Turfjs/turf-feature",
+  "devDependencies": {
+    "dox": "^0.7.1",
+    "doxme": "^1.8.2",
+    "tape": "^4.0.0"
+  }
+}
